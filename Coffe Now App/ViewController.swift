@@ -6,14 +6,28 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
+    private lazy var view1: UIView = {
+        let view = UIView()
+        view.backgroundColor = UIColor.blue
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        layout()
+        
+    }
+   private func layout() {
+       view.addSubview(view1)
+       view1.snp.makeConstraints { make in
+           make.edges.equalToSuperview()
+       }
     }
 
-
 }
+
 

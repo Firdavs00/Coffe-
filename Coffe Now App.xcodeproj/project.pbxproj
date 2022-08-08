@@ -10,20 +10,44 @@
 		6F1EFDFA28429A1B00CD9142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EFDF928429A1B00CD9142 /* AppDelegate.swift */; };
 		6F1EFDFC28429A1B00CD9142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EFDFB28429A1B00CD9142 /* SceneDelegate.swift */; };
 		6F1EFDFE28429A1B00CD9142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EFDFD28429A1B00CD9142 /* ViewController.swift */; };
-		6F1EFE0128429A1B00CD9142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1EFDFF28429A1B00CD9142 /* Main.storyboard */; };
 		6F1EFE0328429A1C00CD9142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1EFE0228429A1C00CD9142 /* Assets.xcassets */; };
 		6F1EFE0628429A1C00CD9142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1EFE0428429A1C00CD9142 /* LaunchScreen.storyboard */; };
+		6F1EFE0E2842A80400CD9142 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EFE0D2842A80400CD9142 /* LaunchViewController.swift */; };
+		6F3982BF28548ED5004E07BD /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3982BE28548ED5004E07BD /* TextFieldCell.swift */; };
+		6F656B672854783F00AC2EB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F656B662854783F00AC2EB3 /* LoginViewController.swift */; };
+		6F656B6A285478D800AC2EB3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F656B69285478D800AC2EB3 /* Constants.swift */; };
+		6F656B6D28547C0800AC2EB3 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F656B6C28547C0800AC2EB3 /* LogoView.swift */; };
+		6F656B6F2854838B00AC2EB3 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F656B6E2854838B00AC2EB3 /* CustomTextFieldView.swift */; };
+		6F656B722854890200AC2EB3 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F656B712854890200AC2EB3 /* TextFieldModel.swift */; };
+		6F6772E72874A3E00091F3C7 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6772E62874A3E00091F3C7 /* ButtonCell.swift */; };
+		6F6772E92874B5910091F3C7 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6772E82874B5910091F3C7 /* ButtonModel.swift */; };
+		6FFD1BB5285D11E2006AF216 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD1BB4285D11E2006AF216 /* Extension.swift */; };
+		6FFE104F28566A7F00D2FDCA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE104E28566A7F00D2FDCA /* ButtonView.swift */; };
+		85E88DAEAAF8104B82580F05 /* Pods_Coffe_Now_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7346607A462AAEC166AC1D /* Pods_Coffe_Now_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D7346607A462AAEC166AC1D /* Pods_Coffe_Now_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffe_Now_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FF2129BB9F0FBBC88BB4BF /* Pods-Coffe Now App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffe Now App.debug.xcconfig"; path = "Target Support Files/Pods-Coffe Now App/Pods-Coffe Now App.debug.xcconfig"; sourceTree = "<group>"; };
 		6F1EFDF628429A1B00CD9142 /* Coffe Now App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffe Now App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1EFDF928429A1B00CD9142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F1EFDFB28429A1B00CD9142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6F1EFDFD28429A1B00CD9142 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6F1EFE0028429A1B00CD9142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F1EFE0228429A1C00CD9142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F1EFE0528429A1C00CD9142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F1EFE0728429A1D00CD9142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1EFE0D2842A80400CD9142 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		6F3982BE28548ED5004E07BD /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		6F656B662854783F00AC2EB3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6F656B69285478D800AC2EB3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F656B6C28547C0800AC2EB3 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		6F656B6E2854838B00AC2EB3 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
+		6F656B712854890200AC2EB3 /* TextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
+		6F6772E62874A3E00091F3C7 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		6F6772E82874B5910091F3C7 /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
+		6FFD1BB4285D11E2006AF216 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		6FFE104E28566A7F00D2FDCA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		C9B41313ADC589E86F17F2CE /* Pods-Coffe Now App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffe Now App.release.xcconfig"; path = "Target Support Files/Pods-Coffe Now App/Pods-Coffe Now App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E88DAEAAF8104B82580F05 /* Pods_Coffe_Now_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				6F1EFDF828429A1B00CD9142 /* Coffe Now App */,
 				6F1EFDF728429A1B00CD9142 /* Products */,
+				9C60287A8130AAC73D1964C1 /* Pods */,
+				708FECA5957950D00C10746D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,74 @@
 		6F1EFDF828429A1B00CD9142 /* Coffe Now App */ = {
 			isa = PBXGroup;
 			children = (
+				6F656B70285488DD00AC2EB3 /* Model */,
+				6F656B6B28547BF400AC2EB3 /* CustomVIews */,
+				6F656B68285478CE00AC2EB3 /* Utils */,
+				6F656B65285476EE00AC2EB3 /* LoginPage */,
 				6F1EFDF928429A1B00CD9142 /* AppDelegate.swift */,
 				6F1EFDFB28429A1B00CD9142 /* SceneDelegate.swift */,
 				6F1EFDFD28429A1B00CD9142 /* ViewController.swift */,
-				6F1EFDFF28429A1B00CD9142 /* Main.storyboard */,
 				6F1EFE0228429A1C00CD9142 /* Assets.xcassets */,
 				6F1EFE0428429A1C00CD9142 /* LaunchScreen.storyboard */,
 				6F1EFE0728429A1D00CD9142 /* Info.plist */,
+				6F1EFE0D2842A80400CD9142 /* LaunchViewController.swift */,
 			);
 			path = "Coffe Now App";
+			sourceTree = "<group>";
+		};
+		6F656B65285476EE00AC2EB3 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				6F656B662854783F00AC2EB3 /* LoginViewController.swift */,
+				6F3982BE28548ED5004E07BD /* TextFieldCell.swift */,
+				6F6772E62874A3E00091F3C7 /* ButtonCell.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		6F656B68285478CE00AC2EB3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6F656B69285478D800AC2EB3 /* Constants.swift */,
+				6FFD1BB4285D11E2006AF216 /* Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6F656B6B28547BF400AC2EB3 /* CustomVIews */ = {
+			isa = PBXGroup;
+			children = (
+				6F656B6C28547C0800AC2EB3 /* LogoView.swift */,
+				6F656B6E2854838B00AC2EB3 /* CustomTextFieldView.swift */,
+				6FFE104E28566A7F00D2FDCA /* ButtonView.swift */,
+			);
+			path = CustomVIews;
+			sourceTree = "<group>";
+		};
+		6F656B70285488DD00AC2EB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F656B712854890200AC2EB3 /* TextFieldModel.swift */,
+				6F6772E82874B5910091F3C7 /* ButtonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		708FECA5957950D00C10746D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D7346607A462AAEC166AC1D /* Pods_Coffe_Now_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C60287A8130AAC73D1964C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17FF2129BB9F0FBBC88BB4BF /* Pods-Coffe Now App.debug.xcconfig */,
+				C9B41313ADC589E86F17F2CE /* Pods-Coffe Now App.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F1EFE0A28429A1D00CD9142 /* Build configuration list for PBXNativeTarget "Coffe Now App" */;
 			buildPhases = (
+				0EF1753CC2F16E4FEE0A1E0F /* [CP] Check Pods Manifest.lock */,
 				6F1EFDF228429A1B00CD9142 /* Sources */,
 				6F1EFDF328429A1B00CD9142 /* Frameworks */,
 				6F1EFDF428429A1B00CD9142 /* Resources */,
+				8F4DB67E022B936AED4596D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +215,52 @@
 			files = (
 				6F1EFE0628429A1C00CD9142 /* LaunchScreen.storyboard in Resources */,
 				6F1EFE0328429A1C00CD9142 /* Assets.xcassets in Resources */,
-				6F1EFE0128429A1B00CD9142 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EF1753CC2F16E4FEE0A1E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coffe Now App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4DB67E022B936AED4596D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffe Now App/Pods-Coffe Now App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffe Now App/Pods-Coffe Now App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coffe Now App/Pods-Coffe Now App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F1EFDF228429A1B00CD9142 /* Sources */ = {
@@ -139,22 +268,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F1EFDFE28429A1B00CD9142 /* ViewController.swift in Sources */,
+				6F6772E72874A3E00091F3C7 /* ButtonCell.swift in Sources */,
 				6F1EFDFA28429A1B00CD9142 /* AppDelegate.swift in Sources */,
 				6F1EFDFC28429A1B00CD9142 /* SceneDelegate.swift in Sources */,
+				6FFD1BB5285D11E2006AF216 /* Extension.swift in Sources */,
+				6F656B722854890200AC2EB3 /* TextFieldModel.swift in Sources */,
+				6F656B6F2854838B00AC2EB3 /* CustomTextFieldView.swift in Sources */,
+				6F6772E92874B5910091F3C7 /* ButtonModel.swift in Sources */,
+				6F656B6A285478D800AC2EB3 /* Constants.swift in Sources */,
+				6FFE104F28566A7F00D2FDCA /* ButtonView.swift in Sources */,
+				6F656B6D28547C0800AC2EB3 /* LogoView.swift in Sources */,
+				6F656B672854783F00AC2EB3 /* LoginViewController.swift in Sources */,
+				6F1EFE0E2842A80400CD9142 /* LaunchViewController.swift in Sources */,
+				6F3982BF28548ED5004E07BD /* TextFieldCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6F1EFDFF28429A1B00CD9142 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F1EFE0028429A1B00CD9142 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6F1EFE0428429A1C00CD9142 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +414,7 @@
 		};
 		6F1EFE0B28429A1D00CD9142 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FF2129BB9F0FBBC88BB4BF /* Pods-Coffe Now App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +425,6 @@
 				INFOPLIST_FILE = "Coffe Now App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +442,7 @@
 		};
 		6F1EFE0C28429A1D00CD9142 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B41313ADC589E86F17F2CE /* Pods-Coffe Now App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +453,6 @@
 				INFOPLIST_FILE = "Coffe Now App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
